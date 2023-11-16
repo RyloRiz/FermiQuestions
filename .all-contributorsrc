@@ -52,11 +52,20 @@
       "contributions": [
         "bug"
       ]
-    }
+    },
+	{
+		"login": "RyloRiz",
+		"name": "RyloRiz",
+		"avatar_url": "https://avatars.githubusercontent.com/u/19900255?v=4",
+		"profile": "https://github.com/RyloRiz",
+		"contributions": [
+			"ideas"
+		]
+	}
   ],
   "contributorsPerLine": 7,
   "projectName": "FermiQuestions",
-  "projectOwner": "EricAndrechek",
+  "projectOwner": "RyloRiz",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true,

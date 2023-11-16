@@ -2,7 +2,7 @@ let questions = [];
 let question = {};
 let sources = {};
 const question_bank_url =
-    'https://raw.githubusercontent.com/EricAndrechek/FermiQuestions/main/question-bank.json';
+    'https://raw.githubusercontent.com/RyloRiz/FermiQuestions/main/question-bank.json';
 
 // get question bank
 function getQuestions() {
@@ -17,7 +17,7 @@ function getQuestions() {
         .catch(function (ex) {
             console.log('parsing failed', ex);
             document.getElementById('fermi-question').innerHTML =
-                'Failed to load question bank. Refresh clear your cache and reload the page to try again. <br>If this issue persists, please <a href="https://github.com/EricAndrechek/FermiQuestions/issues">report the issue</a>.';
+                'Failed to load question bank. Refresh clear your cache and reload the page to try again. <br>If this issue persists, please <a href="https://github.com/RyloRiz/FermiQuestions/issues">report the issue</a>.';
         });
 }
 
@@ -69,7 +69,7 @@ function main(questions_json) {
     }
 
     document.getElementById('tnumber').innerHTML = questions.length;
-    questions = shuffleFisherYates(questions);
+    // questions = shuffleFisherYates(questions);
     getQuestion();
 }
 
@@ -130,7 +130,7 @@ function game_over() {
 function display_end_game_text() {
     document.getElementById('fermi-question').innerHTML =
         "You've gone through all our fermi questions! Refresh the page to play again.";
-    document.getElementById('fermi-answer').onkeypress = '';
+    document.getElementById('fermi-answer').onkeydown = '';
     document.getElementById('fermi-button').onclick = '';
     document.getElementById('fermi-answer').disabled = true;
     document.getElementById('fermi-button').disabled = true;

@@ -65,12 +65,12 @@ window.addEventListener('resize', setMinHeight);
 const star_light = `
 <a
     class="github-button button-underneath"
-    href="https://github.com/EricAndrechek/FermiQuestions"
+    href="https://github.com/RyloRiz/FermiQuestions"
     data-color-scheme="light"
     data-icon="octicon-star"
     data-size="large"
     data-show-count="true"
-    aria-label="Star EricAndrechek/FermiQuestions on GitHub"
+    aria-label="Star RyloRiz/FermiQuestions on GitHub"
     >Star</a
 >
 `;
@@ -78,12 +78,12 @@ const star_light = `
 const star_dark = `
 <a
     class="github-button button-underneath"
-    href="https://github.com/EricAndrechek/FermiQuestions"
+    href="https://github.com/RyloRiz/FermiQuestions"
     data-color-scheme="dark"
     data-icon="octicon-star"
     data-size="large"
     data-show-count="true"
-    aria-label="Star EricAndrechek/FermiQuestions on GitHub"
+    aria-label="Star RyloRiz/FermiQuestions on GitHub"
     >Star</a
 >
 `;
@@ -91,12 +91,12 @@ const star_dark = `
 const issue_light = `
 <a
     class="github-button"
-    href="https://github.com/EricAndrechek/FermiQuestions/issues"
+    href="https://github.com/RyloRiz/FermiQuestions/issues"
     data-color-scheme="light"
     data-icon="octicon-issue-opened"
     data-size="large"
     data-show-count="true"
-    aria-label="Issue EricAndrechek/FermiQuestions on GitHub"
+    aria-label="Issue RyloRiz/FermiQuestions on GitHub"
     >Issue</a
 >
 `;
@@ -104,12 +104,12 @@ const issue_light = `
 const issue_dark = `
 <a
     class="github-button"
-    href="https://github.com/EricAndrechek/FermiQuestions/issues"
+    href="https://github.com/RyloRiz/FermiQuestions/issues"
     data-color-scheme="dark"
     data-icon="octicon-issue-opened"
     data-size="large"
     data-show-count="true"
-    aria-label="Issue EricAndrechek/FermiQuestions on GitHub"
+    aria-label="Issue RyloRiz/FermiQuestions on GitHub"
     >Issue</a
 >
 `;
@@ -117,35 +117,35 @@ const issue_dark = `
 const follow_light = `
 <a
     class="github-button"
-    href="https://github.com/EricAndrechek"
+    href="https://github.com/RyloRiz"
     data-color-scheme="light"
     data-size="large"
     data-show-count="true"
-    aria-label="Follow @EricAndrechek on GitHub"
-    >Follow @EricAndrechek</a
+    aria-label="Follow @RyloRiz on GitHub"
+    >Follow @RyloRiz</a
 >
 `;
 
 const follow_dark = `
 <a
     class="github-button"
-    href="https://github.com/EricAndrechek"
+    href="https://github.com/RyloRiz"
     data-color-scheme="dark"
     data-size="large"
     data-show-count="true"
-    aria-label="Follow @EricAndrechek on GitHub"
-    >Follow @EricAndrechek</a
+    aria-label="Follow @RyloRiz on GitHub"
+    >Follow @RyloRiz</a
 >
 `;
 
 const sponsor_light = `
 <a
     class="github-button"
-    href="https://github.com/sponsors/EricAndrechek"
+    href="https://github.com/sponsors/RyloRiz"
     data-color-scheme="light"
     data-icon="octicon-heart"
     data-size="large"
-    aria-label="Sponsor @EricAndrechek on GitHub"
+    aria-label="Sponsor @RyloRiz on GitHub"
     >Sponsor</a
 >
 `;
@@ -153,11 +153,11 @@ const sponsor_light = `
 const sponsor_dark = `
 <a
     class="github-button"
-    href="https://github.com/sponsors/EricAndrechek"
+    href="https://github.com/sponsors/RyloRiz"
     data-color-scheme="dark"
     data-icon="octicon-heart"
     data-size="large"
-    aria-label="Sponsor @EricAndrechek on GitHub"
+    aria-label="Sponsor @RyloRiz on GitHub"
     >Sponsor</a
 >
 `;
